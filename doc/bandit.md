@@ -31,6 +31,8 @@ catで中見みる。
 $ cat readme  
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1  
 ```  
+$ less readme  
+でもおけ
 これが暗号。次のレベルのパスワードになるため、コピーしておく。  
 ```$ exit```  
 で抜ける。  
@@ -63,7 +65,10 @@ CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 ```
 $ cat < -
 ```  
-でもよい。
+でもよい。この記号<は標準入力をキーボードからファイルに切り替えるもの  
+
+もっと簡単に言うなら、「キーボードから入力された情報じゃなくて、ファイルの内容を使うよ」というもの  
+
 ```
 $ exit
 ```
@@ -116,5 +121,43 @@ $ exitで抜ける。
 
 
 ```
-$ ssh bandit3@bandit.labs.overthewire.org -p 2220
+$ ssh bandit4@bandit.labs.overthewire.org -p 2220
+```  
+cd inhere  
+先頭が"-"なのでLevel1〜2と同様にパスを指定する。  
+cat ./-file07  
+workディレクトリ内のファイルすべての中からaという文字を検索する場合は、次のコマンドだ。  
+file inhere/*  
+人が読めるので  
+ASCII text  
+file ./*  
+
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+## 5->6  
+
+```
+$ ssh bandit5@bandit.labs.overthewire.org -p 2220
+```  
+$ find -ls |grep 1033  
+$ cd maybehere07
+$ ls -a
+$ cat .file2  
+find -s 1033
+
+find ./ -size 1033c
+./カレントディレクトリ
+-size ファイルサイズ　1033 cがバイト kがキロバイと
+-type f
+ファイルを対象として検索
+-exec cat {} \;
+検索結果に対してコマンドを実行する。
+は\でエスケープする。また、対象となる全ファイルという意味で{}を記述している
+ワンライナーてきなのできる。
+
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+## 6->7
+```
+$ ssh bandit6@bandit.labs.overthewire.org -p 2220
 ```  
