@@ -1,4 +1,4 @@
-#CTF練習(コマンド) CTFサークルで使うためにdoc残す。  
+# CTF練習(コマンド) CTFサークルで使うためにdoc残す。  
 
 https://overthewire.org/wargames/bandit/bandit0.html  
 
