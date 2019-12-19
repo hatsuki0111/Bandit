@@ -2,7 +2,10 @@
 
 https://overthewire.org/wargames/bandit/bandit0.html  
 
-wsl2のUbuntu環境で行っています。  
+wsl2のUbuntu環境で行っています。インストール方法は以下参照    
+https://qiita.com/Aruneko/items/c79810b0b015bebf30bb  
+
+ssh接続ができるように設定する。  
 
 
 ## 0  
@@ -13,7 +16,7 @@ ssh username@ipaddress ssh接続　方法で調べる
 
 ```$ ssh bandit.labs.overthewire.org -p2220 -l bandit0```  
 でも接続できる。  
-
+vi /etc/ssh/sshd_configvi /etc/ssh/sshd_config
 
 ```bandit0@bandit.labs.overthewire.org's password:bandit0```  
 パスにbandit0を入力パスは見えない  
@@ -137,7 +140,7 @@ koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ## 5->6  
 
 ```
-$ ssh bandit5@bandit.labs.overthewire.org -p 2220
+vi /etc/ssh/sshd_config$ ssh bandit5@bandit.labs.overthewire.org -p 2220
 ```  
 $ find -ls |grep 1033  
 $ cd maybehere07
