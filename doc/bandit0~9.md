@@ -232,6 +232,6 @@ stringsコマンドは、バイナリファイルやデータファイルの可�
 
 ```truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk```  
 
-次は10->11を書く。  
+次は[10~19](https://github.com/hatsuki0111/Bandit/blob/master/doc/bandit10~19)を書く。  
 
 
