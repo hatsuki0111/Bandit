@@ -12,6 +12,9 @@ https://qiita.com/hnishi/items/5dec4c7fca9b5121430f
 わからないコマンドはmanや-hで調べる。かググる。  
 ```$ man ls```みたいに  
 
+コマンド一覧みたいな  
+https://hydrocul.github.io/wiki/commands/  
+
 
 ## 0  
 sshで接続する。ssh user@ipaddress ポートは-pで2220  
