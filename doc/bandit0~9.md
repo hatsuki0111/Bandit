@@ -24,7 +24,6 @@ ssh username@ipaddress ssh接続　方法で調べる
 
 ```$ ssh bandit.labs.overthewire.org -p2220 -l bandit0```  
 でも接続できる。  
-vi /etc/ssh/sshd_configvi /etc/ssh/sshd_config
 
 ```bandit0@bandit.labs.overthewire.org's password:bandit0```  
 パスにbandit0を入力パスは見えない  
